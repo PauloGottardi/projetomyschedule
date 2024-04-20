@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: content-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
     width: 100%;
@@ -105,12 +105,13 @@ img{
     text-shadow: 1px 1px 1px black;
 }
 header{
-    background-color: white;
+    background: white;
     position: fixed;
-    width: 700px;
+    width: 2000px;
     top: 0;
     left: 0;
     margin-bottom: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
 }
 h1{
     color: rgb(0, 157, 255);
@@ -120,19 +121,81 @@ h1{
 }
 main{
     height: 500px;
+    margin: auto;
+    display: flex;
 }
 .divhorarios{
-    background-color: yellowgreen;
+    background-color: white;
+    border: 5px solid rgb(0, 157, 255);
+    border-radius: 10px;
     width: 1450px;
-    height: 20px;
-    margin-top: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 10px;
+    
+    
 }
 .horario{
     display: inline;
-    padding: 10px;
+    padding: 8px;
+    font-weight: bolder;
 }
 #logodia{
     width: 50px;
     height: 50px;
-    display: inline-block;   
+    display: inline-block; 
+    position: relative;
+    left: 10px;
+    top: 6px;
+}
+.bigframe{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 600px;
+    width: 1450px;
+    margin: 0 15px;
+    
+}
+
+.compro1{
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 68px;
+    left: 514px;
+}
+.compro2{
+    background-color: rgb(86, 86, 218);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: 43px;
+    left: 810px;
+
+}
+.compro3{
+    background-color: rgb(59, 167, 122);
+    width: 185px;
+    height: 47px;
+    border-radius: 10px;
+    position: relative;
+    top: -5px;
+    left: 1175px;
+}
+h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 8px;
+}
+.trabalho{
+    position: relative;
+    top: 12px;
+}
+.espaco{
+    
 }
