@@ -156,7 +156,6 @@ main{
     height: 600px;
     width: 1450px;
     margin: 0 15px;
-    
 }
 
 .compro1{
@@ -192,10 +191,25 @@ h3{
     text-shadow: 1px 1px 1px black;
     margin-left: 8px;
 }
-.trabalho{
+.principal{
     position: relative;
     top: 12px;
 }
 .espaco{
     
 }
+/*.divsemana{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 600px;
+    width: 80px;
+    margin: 0px;
+    display: inline-block;
+}
+.divsem{
+    padding-left: 5px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}*/
