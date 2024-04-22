@@ -107,6 +107,7 @@ img{
 header{
     background: white;
     position: fixed;
+    z-index: 1;
     width: 2000px;
     top: 0;
     left: 0;
@@ -126,20 +127,21 @@ main{
 }
 .divhorarios{
     background-color: white;
-    border: 5px solid rgb(0, 157, 255);
     border-radius: 10px;
     width: 1450px;
     height: 30px;
     text-align: center;
     margin-top: 125px;
-    margin-left: 10px;
-    
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     
 }
 .horario{
     display: inline;
-    padding: 8px;
+    padding: 2px;
     font-weight: bolder;
+    position: relative;
+    top: 5px;
 }
 #logodia{
     width: 50px;
@@ -155,7 +157,8 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     height: 600px;
     width: 1450px;
-    margin: 0 15px;
+    margin: 10px 20px;
+    display: inline-block;
 }
 
 .compro1{
@@ -198,18 +201,25 @@ h3{
 .espaco{
     
 }
-/*.divsemana{
+.divsemana{
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     height: 600px;
     width: 80px;
-    margin: 0px;
+    margin-top: 10px;
     display: inline-block;
 }
 .divsem{
     padding-left: 5px;
     padding-top: 35px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-weight: bolder;
-}*/
+}
+.inlcuir{
+    display: flex;
+    float: right;
+}
+.espacamento{
+    font-size: 18px;
+}
