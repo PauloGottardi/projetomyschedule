@@ -160,35 +160,6 @@ main{
     margin: 10px 20px;
     display: inline-block;
 }
-
-.compro1{
-    width: 605px;
-    height: 50px;
-    background-color: rgba(185, 66, 66, 0.836);
-    border-radius: 10px;
-    position: relative;
-    top: 68px;
-    left: 514px;
-}
-.compro2{
-    background-color: rgb(86, 86, 218);
-    width: 140px;
-    height: 25px;
-    border-radius: 10px;
-    position: relative;
-    top: 43px;
-    left: 810px;
-
-}
-.compro3{
-    background-color: rgb(59, 167, 122);
-    width: 185px;
-    height: 47px;
-    border-radius: 10px;
-    position: relative;
-    top: -5px;
-    left: 1175px;
-}
 h3{
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -223,3 +194,86 @@ h3{
 .espacamento{
     font-size: 18px;
 }
+/* Terça */
+.c1terça{
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 490px;
+}
+.c2terça{
+    width: 90px;
+    height: 25px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    position: relative;
+    top: -05px;
+    left: 800px;
+}
+.c3terça{
+    width: 120px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+    top: -55px;
+    left: 360px;
+}
+.c4terça{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(59, 167, 122);
+    border-radius: 10px;
+    position: relative;
+    top: -105px;
+    left: 1150px;
+}
+/* Quarta */
+.c1quarta{
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: -75px;
+    left: 490px;
+}
+.c2quarta{
+    background-color: rgb(86, 86, 218);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    left: 600px;
+
+}
+.c3quarta{
+    background-color: rgb(59, 167, 122);
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -150px;
+    left: 1150px;
+}
+.c4quarta{
+    width: 120px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+    top: -200px;
+    left: 360px;
+}
+/* Quinta */
+.c1quinta{
+    
+}
+.c2quinta{
+
+}
+.
