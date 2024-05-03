@@ -151,15 +151,7 @@ main{
     left: 10px;
     top: 6px;
 }
-.bigframe{
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
-    height: 600px;
-    width: 1450px;
-    margin: 10px 20px;
-    display: inline-block;
-}
+
 h3{
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -195,6 +187,15 @@ h3{
     font-size: 18px;
 }
 /* Terça */
+.BGSemana1{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+}
 .c1terça{
     width: 605px;
     height: 50px;
@@ -232,13 +233,25 @@ h3{
     left: 1150px;
 }
 /* Quarta */
+.BGSemana2{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    top: 89px;
+    left: -1490px;
+}
 .c1quarta{
     width: 605px;
     height: 50px;
     background-color: rgba(185, 66, 66, 0.836);
     border-radius: 10px;
     position: relative;
-    top: -75px;
+    top: 17px;
     left: 490px;
 }
 .c2quarta{
@@ -247,7 +260,7 @@ h3{
     height: 25px;
     border-radius: 10px;
     position: relative;
-    top: -100px;
+    top: -8px;
     left: 600px;
 
 }
@@ -257,7 +270,7 @@ h3{
     height: 50px;
     border-radius: 10px;
     position: relative;
-    top: -150px;
+    top: -57px;
     left: 1150px;
 }
 .c4quarta{
@@ -266,7 +279,7 @@ h3{
     background-color: rgb(0, 208, 255);
     border-radius: 10px;
     position: relative;
-    top: -200px;
+    top: -108px;
     left: 360px;
 }
 /* Quinta */
