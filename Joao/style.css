@@ -118,7 +118,7 @@ h1{
     color: rgb(0, 157, 255);
     position: relative;
     top: -55px;
-    left: 65px;
+    left: 800px;
 }
 main{
     height: 500px;
@@ -159,7 +159,7 @@ h3{
 }
 .principal{
     position: relative;
-    top: 12px;
+    top: -0px;
 }
 .espaco{
     
@@ -178,6 +178,7 @@ h3{
     padding-top: 35px;
     padding-bottom: 10px;
     font-weight: bolder;
+    cursor: pointer
 }
 .inlcuir{
     display: flex;
@@ -204,6 +205,7 @@ h3{
     position: relative;
     top: 20px;
     left: 490px;
+    cursor: pointer
 }
 .c2terça{
     width: 90px;
@@ -213,6 +215,7 @@ h3{
     position: relative;
     top: -05px;
     left: 800px;
+    cursor: pointer
 }
 .c3terça{
     width: 120px;
@@ -222,6 +225,7 @@ h3{
     position: relative;
     top: -55px;
     left: 360px;
+    cursor: pointer
 }
 .c4terça{
     width: 220px;
@@ -231,6 +235,7 @@ h3{
     position: relative;
     top: -105px;
     left: 1150px;
+    cursor: pointer
 }
 /* Quarta */
 .BGSemana2{
@@ -244,6 +249,7 @@ h3{
     position: relative;
     top: 85px;
     left: -1490px;
+    cursor: pointer
 }
 .c1quarta{
     width: 605px;
@@ -253,6 +259,7 @@ h3{
     position: relative;
     top: 17px;
     left: 490px;
+    cursor: pointer
 }
 .c2quarta{
     background-color: rgb(86, 86, 218);
@@ -262,6 +269,7 @@ h3{
     position: relative;
     top: -8px;
     left: 600px;
+    cursor: pointer
 
 }
 .c3quarta{
@@ -272,6 +280,7 @@ h3{
     position: relative;
     top: -57px;
     left: 1150px;
+    cursor: pointer
 }
 .c4quarta{
     width: 120px;
@@ -281,6 +290,7 @@ h3{
     position: relative;
     top: -108px;
     left: 360px;
+    cursor: pointer
 }
 /* Quinta */
 .BGSemana3{
@@ -293,9 +303,11 @@ h3{
     display: inline-block;
     position: relative;
     top: 171px;
-    left: -2979px;
+    left: -2980px;
+    cursor: pointer
 }
 .c1quinta{
+<<<<<<< HEAD
     width: 120px;
     height: 50px;
     background-color: rgb(0, 208, 255);
@@ -314,11 +326,25 @@ h3{
     left: 490px;
 }
 .c3quinta{
+=======
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 17px;
+    left: 490px;
+    cursor: pointer
+    
+}
+.c2quinta{
+>>>>>>> ede454f272805fd7ddc17458510562fc8f992ef9
     background-color: rgb(86, 86, 218);
     width: 140px;
     height: 25px;
     border-radius: 10px;
     position: relative;
+<<<<<<< HEAD
     top: -61px;
     left: 650px;
 }
@@ -379,3 +405,207 @@ h3{
     top: 512px;
     left: -4570px;
 }
+=======
+    top: -10px;
+    left: 600px;
+    cursor: pointer
+}
+.c3quinta{
+    background-color: rgb(59, 167, 122);
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -57px;
+    left: 1200px;
+    cursor: pointer
+}
+.c4quinta{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(0, 208, 255);
+    border-radius: 10px;
+    position: relative;
+    top: -108px;
+    left: 360px;
+    cursor: pointer
+}
+.c5quinta{
+    width: 75px;
+    height: 50px;
+    background-color: rgb(99, 221, 0);
+    border-radius: 10px;
+    position: relative;
+    top: -157px;
+    left: 1100px;
+    cursor: pointer
+}
+.BGSemana4{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    top: 257px;
+    left: -4470px;
+    cursor: pointer
+}
+.c1sexta{
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 17px;
+    left: 490px;
+    cursor: pointer
+    
+}
+.c2sexta{
+    background-color: rgb(86, 86, 218);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: 900px;
+    cursor: pointer
+}
+.c3sexta{
+    background-color: rgb(59, 167, 122);
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -57px;
+    left: 1150px;
+    cursor: pointer
+}
+.c4sexta{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(0, 208, 255);
+    border-radius: 10px;
+    position: relative;
+    top: -108px;
+    left: 360px;
+    cursor: pointer
+}
+
+.c1sabado{
+    width: 650px;
+    height: 50px;
+    background-color: rgba(16, 123, 245, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 17px;
+    left: 450px;
+    cursor: pointer
+    
+}
+.c2sabado{
+    background-color: rgb(86, 86, 218);
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -32px;
+    left: 1110px;
+    cursor: pointer
+}
+.BGSemana5{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    top: 343px;
+    left: -5960px;
+    cursor: pointer
+}
+.BGSemana6{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    top: 430px;
+    left: -7450px;
+    cursor: pointer
+}
+.c1domingo{
+    width: 650px;
+    height: 50px;
+    background-color: rgba(255, 187, 0, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 17px;
+    left: 450px;
+    cursor: pointer
+    
+}
+.BGSemana7{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    height: 80px;
+    width: 1450px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    top: 517px;
+    left: -8940px;
+    cursor: pointer
+}
+
+.c1segunda{
+    width: 605px;
+    height: 50px;
+    background-color: rgba(185, 66, 66, 0.836);
+    border-radius: 10px;
+    position: relative;
+    top: 17px;
+    left: 490px;
+    cursor: pointer
+    
+}
+.c2segunda{
+    background-color: rgb(86, 86, 218);
+    width: 140px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: 900px;
+    cursor: pointer
+}
+.c3segunda{
+    background-color: rgb(59, 167, 122);
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -57px;
+    left: 1150px;
+    cursor: pointer
+}
+.c4segunda{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(0, 208, 255);
+    border-radius: 10px;
+    position: relative;
+    top: -108px;
+    left: 360px;
+    cursor: pointer
+}
+>>>>>>> ede454f272805fd7ddc17458510562fc8f992ef9
